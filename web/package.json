@@ -1,0 +1,34 @@
+{
+  "name": "gpq",
+  "private": true,
+  "scripts": {
+    "test": "eslint main.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-planet": "^22.1.0",
+    "vite": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "planet",
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "ignorePatterns": [
+      "wasm_exec.js"
+    ],
+    "globals": {
+      "Go": "readonly"
+    },
+    "rules": {
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "^https?://"
+          ]
+        }
+      ]
+    }
+  }
+}
