@@ -1,5 +1,5 @@
 // module github.com/planetlabs/gpq
-module github.com/whosonfirst/gpq-fork				  
+module github.com/whosonfirst/gpq-fork
 
 go 1.22
 
@@ -7,7 +7,7 @@ require (
 	github.com/alecthomas/kong v0.9.0
 	github.com/apache/arrow/go/v16 v16.1.0
 	github.com/fatih/color v1.17.0
-	github.com/jedib0t/go-pretty/v6 v6.5.9
+	github.com/jedib0t/go-pretty/v6 v6.6.0
 	github.com/paulmach/orb v0.11.1
 	github.com/santhosh-tekuri/jsonschema/v5 v5.3.1
 	github.com/stretchr/testify v1.9.0
